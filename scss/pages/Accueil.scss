@@ -1,0 +1,94 @@
+section{
+
+    /*articles en général*/
+    article{
+        margin: 4%;
+        padding-top: 3%;
+    }
+
+    div{
+        margin: auto;
+    }
+
+    /* Premier article */
+    .article1{
+        display: flex;
+
+        /* images */
+        .blockImg{
+            width: 450px;
+
+            .antho{
+                max-width: 100%;
+            }
+        }
+        
+        /* texte */
+        .blockTexte{
+            text-align: center;
+            list-style-position: inside;
+        }
+    }
+
+    /* second article */
+    .article2{
+        text-align: center;
+
+        .imgEco{
+            width: 300px;
+
+            .dessinEco{
+                max-width: 100%;
+            }
+        }
+    }
+
+    /* troisème article */
+    .article3{
+        display: flex;
+        text-align: center;
+        
+        /* réseaux sociaux */
+        .reseauSociaux{
+
+            ul{
+                list-style-type: none;
+
+                li{
+                    display: inline-block;
+                    font-size: 3rem;
+                    margin-right: 2rem;
+
+                    .bi-facebook{
+                        color:rgb(54, 54, 244);
+                        text-shadow: 0 0 1px white;
+                    }
+
+                    .bi-instagram{
+                        color: #da5296;
+                        text-shadow: 0 0 1px white;
+                    }
+
+                    .bi-youtube{
+                        color: #FA2537;
+                        text-shadow: 0 0 1px white;
+                    }
+                }
+            }
+        }
+
+        /* map de disponibilité */
+        .map{
+
+            iframe{
+                border: 3px solid black;
+            }
+        }
+    }
+}
+
+
+
+
+
+

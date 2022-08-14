@@ -1,0 +1,53 @@
+/*Style de la page tarifs*/
+
+/* style cartes slider un volet promotion */
+section.Promotion{
+    background-color: rgb(26, 25, 25);
+    height: 25rem;
+
+    p{
+        color: white;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;   
+    }
+
+    span{
+        font-size: 2rem;
+        color: rgb(254, 105, 105);
+    }
+}
+
+/* style cartes voiture */
+section.Voiture, section.Moto, section.Maison{
+    margin-top: 7%;
+
+    h2{
+    text-align: center;
+    }
+    
+    div.card{
+        height: 26rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    img.card-img-top{
+        height: 160px;
+    }
+    
+    div.card-body{
+        padding: 0%;
+        margin-top: 30px;
+        margin-left: 4px;
+        margin-bottom: 2px;
+    }
+
+    span{
+        float: right;
+        font-weight: 700;
+    }
+}

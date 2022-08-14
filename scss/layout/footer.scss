@@ -1,0 +1,60 @@
+$color-primary : #FA2537;
+
+/*footer*/
+h3{
+    margin-bottom: 12px;
+}
+
+.row div{
+    margin-top: 50px;  
+}
+
+
+/* colonne style */
+.colonne1{
+
+    p{
+        color:$color-primary;
+    }
+
+    img{
+      width: 220px;
+      margin: 20px;  
+    }
+    
+}
+
+.colonne2, .colonne3, .colonne4{
+
+    a{
+        text-decoration: none;
+    }
+    
+    a:hover, a:active{
+        color: $color-primary;
+    }
+}
+
+.textWhite{
+    color: white;
+}
+
+/*social media*/
+.social{
+    font-size: xx-large;
+
+    .bi-facebook{
+        color:rgb(54, 54, 244);
+        text-shadow: 0 0 1px white;
+    }
+    
+    .bi-instagram{
+        color: #da5296;
+        text-shadow: 0 0 1px white;
+    }
+
+    .bi-youtube{
+        color: #FA2537;
+        text-shadow: 0 0 1px white;
+    }
+}

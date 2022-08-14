@@ -1,0 +1,12 @@
+/*Base HTML*/
+@import 'layout/base';
+
+/*Layout*/
+@import 'layout/header';
+@import 'layout/footer';
+
+/*Pages*/
+@import 'pages/Accueil';
+@import 'pages/PrestationsTarifs';
+/*@import 'pages/contact';*/
+@import 'pages/mentions';

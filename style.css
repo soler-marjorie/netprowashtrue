@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/*Base HTML*/
+html {
+  width: 100%;
+  font-family: "Gentium Plus", serif;
+}
+
+body {
+  width: 100%;
+  margin: 0%;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/*Layout*/
+/*fond header*/
+header {
+  width: 100%;
+  background-color: #222020;
+  /*logo and title*/
+  /*Navbar and responsive button*/
+}
+header div img {
+  width: 400px;
+}
+header div h1 {
+  display: inline-block;
+  color: white;
+  font-size: 3.5em;
+  vertical-align: top;
+}
+header nav.navbar {
+  list-style: none;
+  color: white;
+  padding-top: 0%;
+}
+header nav.navbar button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 4rem;
+  --bs-navbar-toggler-focus-width: none;
+}
+header nav.navbar button span {
+  color: black;
+}
+header nav.navbar div {
+  background-color: #fa2537;
+}
+header nav.navbar div a {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 1rem;
+  margin-left: 3rem;
+}
+header nav.navbar div a:hover {
+  color: black;
+  text-decoration: underline;
+}
+header nav.navbar div a:active {
+  color: black;
+}
+
+/*footer*/
+h3 {
+  margin-bottom: 12px;
+}
+
+.row div {
+  margin-top: 50px;
+}
+
+/* colonne style */
+.colonne1 p {
+  color: #fa2537;
+}
+
+.colonne1 img {
+  width: 220px;
+  margin: 20px;
+}
+
+.colonne2 a,
+.colonne3 a,
+.colonne4 a {
+  text-decoration: none;
+}
+
+.colonne2 a:hover,
+.colonne2 a:active,
+.colonne3 a:hover,
+.colonne3 a:active,
+.colonne4 a:hover,
+.colonne4 a:active {
+  color: #fa2537;
+}
+
+.textWhite {
+  color: white;
+}
+
+/*social media*/
+.social {
+  font-size: xx-large;
+}
+.social .bi-facebook {
+  color: #3636f4;
+  text-shadow: 0 0 1px white;
+}
+.social .bi-instagram {
+  color: #da5296;
+  text-shadow: 0 0 1px white;
+}
+.social .bi-youtube {
+  color: #fa2537;
+  text-shadow: 0 0 1px white;
+}
+
+/*Pages*/
+section article {
+  margin: 4%;
+  padding-top: 3%;
+}
+section div {
+  margin: auto;
+}
+section .article1 {
+  display: flex;
+  /* images */
+  /* texte */
+}
+section .article1 .blockImg {
+  width: 450px;
+}
+section .article1 .blockImg .antho {
+  max-width: 100%;
+}
+section .article1 .blockTexte {
+  text-align: center;
+  list-style-position: inside;
+}
+section .article2 {
+  text-align: center;
+}
+section .article2 .imgEco {
+  width: 300px;
+}
+section .article2 .imgEco .dessinEco {
+  max-width: 100%;
+}
+section .article3 {
+  display: flex;
+  text-align: center;
+  /* réseaux sociaux */
+  /* map de disponibilité */
+}
+section .article3 .reseauSociaux ul {
+  list-style-type: none;
+}
+section .article3 .reseauSociaux ul li {
+  display: inline-block;
+  font-size: 3rem;
+  margin-right: 2rem;
+}
+section .article3 .reseauSociaux ul li .bi-facebook {
+  color: #3636f4;
+  text-shadow: 0 0 1px white;
+}
+section .article3 .reseauSociaux ul li .bi-instagram {
+  color: #da5296;
+  text-shadow: 0 0 1px white;
+}
+section .article3 .reseauSociaux ul li .bi-youtube {
+  color: #fa2537;
+  text-shadow: 0 0 1px white;
+}
+section .article3 .map iframe {
+  border: 3px solid black;
+}
+
+/*Style de la page tarifs*/
+/* style cartes slider un volet promotion */
+section.Promotion {
+  background-color: #1a1919;
+  height: 25rem;
+}
+section.Promotion p {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+section.Promotion span {
+  font-size: 2rem;
+  color: #fe6969;
+}
+
+/* style cartes voiture */
+section.Voiture,
+section.Moto,
+section.Maison {
+  margin-top: 7%;
+}
+section.Voiture h2,
+section.Moto h2,
+section.Maison h2 {
+  text-align: center;
+}
+section.Voiture div.card,
+section.Moto div.card,
+section.Maison div.card {
+  height: 26rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+section.Voiture img.card-img-top,
+section.Moto img.card-img-top,
+section.Maison img.card-img-top {
+  height: 160px;
+}
+section.Voiture div.card-body,
+section.Moto div.card-body,
+section.Maison div.card-body {
+  padding: 0%;
+  margin-top: 30px;
+  margin-left: 4px;
+  margin-bottom: 2px;
+}
+section.Voiture span,
+section.Moto span,
+section.Maison span {
+  float: right;
+  font-weight: 700;
+}
+
+/*@import 'pages/contact';*/
+h2.h2 {
+  text-align: center;
+}
