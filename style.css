@@ -18,20 +18,21 @@ main {
 /*fond header*/
 header {
   width: 100%;
-  background-color: #222020;
   /*logo and title*/
   /*Navbar and responsive button*/ }
-  header div img {
-    width: 400px; }
-  header div h1 {
-    display: inline-block;
-    color: white;
-    font-size: 3.5em;
-    vertical-align: middle; }
+  header div {
+    background-color: #222020; }
+    header div img {
+      width: 400px; }
+    header div h1 {
+      display: inline-block;
+      color: white;
+      font-size: 3.5em;
+      vertical-align: middle; }
   header nav.navbar {
     list-style: none;
     color: white;
-    padding-top: 0%; }
+    padding: 0%; }
     header nav.navbar button {
       display: block;
       margin-left: auto;
@@ -54,9 +55,21 @@ header {
       header nav.navbar div a:active {
         color: black; }
 
-@media screen and (min-width: 600px) {
-  div.header_logo {
-    margin: auto; } }
+@media screen and (max-width: 800px) {
+  header {
+    /*logo and title*/ }
+    header div {
+      text-align: center; }
+      header div img {
+        width: 300px; } }
+
+@media screen and (max-width: 500px) {
+  header {
+    /*logo and title*/ }
+    header div img {
+      width: 200px; }
+    header div h1 {
+      font-size: 2em; } }
 
 /*footer*/
 h3 {
@@ -146,6 +159,17 @@ section {
     section .article3 .map iframe {
       border: 3px solid black; }
 
+@media screen and (max-width: 800px) {
+  .article1 {
+    /* images */ }
+    .article1 .blockImg {
+      width: 200px; }
+  /* second article */
+  .article2 .imgEco {
+    width: 150px; }
+  .article3 {
+    display: block; } }
+
 /*Style de la page tarifs*/
 /* style cartes slider un volet promotion */
 section.Promotion {
@@ -161,10 +185,15 @@ section.Promotion {
     font-size: 2rem;
     color: #fe6969; }
 
+h2 {
+  text-align: center; }
+
 /* style cartes voiture */
 section.Voiture, section.Moto, section.Maison {
-  margin-top: 7%; }
-  section.Voiture h2, section.Moto h2, section.Maison h2 {
+  margin-top: 7%;
+  background-color: rgba(0, 0, 0, 0.11);
+  height: 100%; }
+  section.Voiture h3, section.Moto h3, section.Maison h3 {
     text-align: center; }
   section.Voiture div.card, section.Moto div.card, section.Maison div.card {
     height: 26rem;

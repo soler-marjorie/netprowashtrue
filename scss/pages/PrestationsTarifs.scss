@@ -19,12 +19,18 @@ section.Promotion{
     }
 }
 
+h2{
+    text-align: center;
+    }
+
 /* style cartes voiture */
 section.Voiture, section.Moto, section.Maison{
     margin-top: 7%;
+    background-color: rgba(0, 0, 0, 0.11);
+    height: 100%;
 
-    h2{
-    text-align: center;
+    h3{
+        text-align: center;
     }
     
     div.card{
@@ -51,3 +57,14 @@ section.Voiture, section.Moto, section.Maison{
         font-weight: 700;
     }
 }
+
+//responsive tablette
+//@media screen and (max-width: 600px){
+
+
+//}
+
+//responsive téléphone
+//@media screen and (max-width: 800px){
+
+//}

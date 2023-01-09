@@ -87,4 +87,32 @@ section{
     }
 }
 
+//responsive tablette
+@media screen and (max-width: 800px){
 
+    .article1{
+
+        /* images */
+        .blockImg{
+            width: 200px;
+        }
+    }
+
+        /* second article */
+        .article2{
+
+            .imgEco{
+                width: 150px;
+            }
+        }
+
+        .article3{
+            display: block;
+        }
+    
+}
+
+//responsive téléphone
+//@media screen and (max-width: 500px){
+
+//}

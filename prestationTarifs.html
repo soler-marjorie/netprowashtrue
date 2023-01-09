@@ -28,43 +28,56 @@
     
     <header class="header">
         <div class="header_logo">
-            <h1>
-                <img src="img/Image1.png"/>  
-                NETPROWASH à votre domicile
-            </h1>
+            <img class="header_img" src="img/Image1.png"/>
+            <h1>NETPROWASH à votre domicile </h1>
         </div>
 
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <a class="nav-link active" href="index.html">Accueil</a>
-                <a class="nav-link active" href="prestationTarifs.html">Prestations et tarifs</a>
-                <a class="nav-link disabled" href="#">Contact</a>
-            </div> 
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="prestationTarifs.html">Prestations et tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Contact</a>
+                        </li> 
+                    </ul>               
+                </div> 
             </div> 
         </nav> 
-    </header> 
+    </header>  
 
     <main class="container">
         <!--  ----------------------------------------------- CAR -------------------------------------------- -->
+        <!--
             <section class="row Promotion">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-item active Texte">
+                        
                         <p>Promotion valable du <span> 1er Juillet au 31 Juillet <span></p>
                         <p> <span>-10%</span> sur les prestations</p>
                         <p> <span>-20%</span> sur les rénovations de phares</p>
                         <p>Avec le code promo NETPRO81</p>
+                    
                     </div>
                 </div>
             </section>
-        
+        -->
+
+        <h2>Tarifs voiture</h2>
+
+        <!-- forfait express-->
             <section class="row Voiture">
-                <h2>Tarifs voiture</h2>
+                <h3>Forfait express</h3>
         
                 <!-- First car cards -->
                 <div class="col-md-4">
@@ -76,10 +89,10 @@
                         </div>
         
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Citadine / Berline : <span>36€</span></li>
-                            <li class="list-group-item">Break / 4X4 / SUV : <span>40€</span></li>
-                            <li class="list-group-item">Petit utilitaire (jumpy, scudo, ...) : <span>44€</span></li>
-                            <li class="list-group-item">Utilitaire : <span>49€</span></li>
+                            <li class="list-group-item"><b>tarif:</b> <span>20€</span></li>
+                            <li class="list-group-item">Lavage</li>
+                            <li class="list-group-item">Protection</li>
+                            <li class="list-group-item">Séchage</li>
                         </ul>
                     </div>
                 </div>
@@ -95,10 +108,10 @@
                         </div>
         
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Citadine / Berline : <span>46€</span></li>
-                            <li class="list-group-item">Break / 4X4 / SUV : <span>50€</span></li>
-                            <li class="list-group-item">Petit utilitaire (jumpy, scudo, ...) : <span>54€</span></li>
-                            <li class="list-group-item">Utilitaire : <span>59€</span></li>
+                            <li class="list-group-item"><b>tarif:</b> <span>30€</span></li>
+                            <li class="list-group-item">Aspiration</li>
+                            <li class="list-group-item">Dépoussiérage</li>
+                            <li class="list-group-item">Vitres</li>
                         </ul>
                     </div>
                 </div>
@@ -114,57 +127,107 @@
                         </div>
         
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Citadine / Berline : <span>69€</span></li>
-                            <li class="list-group-item">Break / 4X4 / SUV : <span>77€</span></li>
-                            <li class="list-group-item">Petit utilitaire (jumpy, scudo, ...) : <span>85€</span></li>
-                            <li class="list-group-item">Utilitaire : <span>94€</span></li>
+                            <li class="list-group-item"><b>Tarif: </b> <span>45€</span></li>
                         </ul>
                     </div> 
                 </div>
-                <!-- third car cards -->
-        
-                <!-- fourth car cards -->
-                <div class="col-md-4">
-                    <div class="card" style="width: 19rem;">
-                    <img src="img/autrePrestaCar.jpg" class="card-img-top" alt="...">
-        
-                        <div class="card-body">
-                            <h3 class="card-title">Autres Prestations</h3>
-                        </div>
-        
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Nettoyage moteur (partie haute, ...), </br> <b>à partir de</b>:<span>20€</span></li>
-                            <li class="list-group-item">Rénovation optique phares :<span>50€</span></li>
-                            <li class="list-group-item">Injection/Extraction seulement (siège/tapis, ...), <b>à partir de</b>:<span>50€</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- fourth car cards -->
-        
-                <!-- fifth car cards -->
-                <div class="col-md-4">
-                    <div class="card" style="width: 19rem;">
-        
-                        <div class="card-body">
-                            <h3 class="card-title">Suppléments</h3>
-                        </div>
-        
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Boue / Poils / ... : <span>6€</span></li>
-        
-                            <li class="list-group-item">Rénovation plastiques</br> (pare choc, ...) <span>10€</span></li>
-                            <li class="list-group-item">Décontamination carroserie,</br> <b>à partir de</b> :<span>10€</span></li>
-                            <li class="list-group-item">Chrome <b>à partir de</b> :<span>10€</span></li> 
-                            <li class="list-group-item">Injection / Extraction <span>15€</span></li>
-        
-                            <li class="list-group-item">Cuir/Alcantara/Carbone :<span>Sur demande</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- fifth car cards -->
-        
+                <!-- third car cards -->        
             </section>
         
+        <!-- forfait premium-->
+        <section class="row Voiture">
+            <h3>Forfait premium</h3>
+    
+            <!-- First car cards -->
+            <div class="col-md-4">
+                <div class="card" style="width: 19rem;">
+                <img src="img/carexterieur.jpg" class="card-img-top"/>
+    
+                    <div class="card-body">
+                        <h3 class="card-title">Extérieur</h3>
+                    </div>
+    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Tarif:</b> <span>40€</span></li>
+                        <li class="list-group-item">Prélavage, lavage, décontamination</li>
+                        <li class="list-group-item">Technique des deux seaux</li>
+                        <li class="list-group-item">Séchage, protection carrosserie (manuel)</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- First car cards -->
+    
+            <!-- second car cards -->
+            <div class="col-md-4">
+                <div class="card" style="width: 19rem;">
+                <img src="img/carInterieur.jpg" class="card-img-top">
+    
+                    <div class="card-body">
+                        <h3 class="card-title">Intérieur</h3>
+                    </div>
+    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Tarif: </b><span>60€</span></li>
+                        <li class="list-group-item">Aspiration, dépoussiérage</li>
+                        <li class="list-group-item">Shampouineuse sièges, cuir/alcantara</li>
+                        <li class="list-group-item">Protection, rénovation plastique</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- second car cards -->
+    
+            <!-- third car cards -->
+            <div class="col-md-4">
+                <div class="card" style="width: 19rem;">
+                <img src="img/int ext car.png" class="card-img-top" alt="...">
+    
+                    <div class="card-body">
+                        <h3 class="card-title">Extérieur/Intérieur</h3>
+                    </div>
+    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Tarif: </b> <span>90€</span></li>
+                    </ul>
+                </div> 
+            </div>
+            <!-- third car cards -->        
+        </section>
+
+        <!-- forfait option-->
+        <section class="row Voiture">
+            <h3>Options</h3>
+    
+            <!-- First car cards -->
+            <div class="col-md-4">
+                <div class="card" style="width: 19rem;">
+                <img src="img\10032-renover-phare-voiture-00_253e2441-b41a-436a-90e7-88dc5a067239.jpg" class="card-img-top"/>
+    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Rénovation optique phares (la paire) <span>50€</span></li>
+                        <li class="list-group-item">shampouineuse sièges seulement (5 sièges) <span>50€</span></li>
+                        <li class="list-group-item">Nettoyage sous capot (haut moteur, etc) <span>à partir de : 20€</span></li>
+                        <li class="list-group-item">Polish manuel (en plus du forfait extérieur) <span>20€</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- First car cards -->
+    
+            <!-- second car cards -->
+            <div class="col-md-4">
+                <div class="card" style="width: 19rem;">
+                <img src="img\Camping-car-4.jpg" class="card-img-top">
+    
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Tarif: </b> <span>sous devis</span></li>
+                        <li class="list-group-item">camping-car</li>
+                        <li class="list-group-item">poids lourds</li>
+                        <li class="list-group-item">bus, ... etc</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- second car cards -->
+       
+        </section>
         <!-- ----------------------------------------------- MOTO -------------------------------------------- -->
         
             <section class="row Moto">
@@ -178,7 +241,7 @@
                         </div>
         
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><b>A partir de</b> : <span>25€</span></li>
+                            <li class="list-group-item"><b>A partir de</b> : <span>20€</span></li>
                         </ul>
                     </div>
                 </div>
@@ -196,8 +259,8 @@
                         </div>
         
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Tapis</li>
-                            <li class="list-group-item">Matelas</li>
+                            <li class="list-group-item">Tapis/moquette</li>
+                            <li class="list-group-item">Sur demande, <b>à partir de</b> : <span>15€</span></li>
                             <li class="list-group-item">Canapé</li>
                             <li class="list-group-item">Sur demande, <b>à partir de</b> : <span>25€</span></li>
                         </ul>

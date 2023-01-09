@@ -31,28 +31,36 @@
             <h1>NETPROWASH à votre domicile </h1>
         </div>
 
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" 
-                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <a class="nav-link active" href="index.html">Accueil</a>
-                    <a class="nav-link active" href="prestationTarifs.html">Prestations et tarifs</a>
-                    <a class="nav-link disabled" href="#">Contact</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="prestationTarifs.html">Prestations et tarifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Contact</a>
+                        </li> 
+                    </ul>               
                 </div> 
             </div> 
         </nav> 
     </header> 
 
-    <main>
+    <main class="container">
 
-        <section>
+        <section class="row">
 
             <!-- Première section de la page d'accueil -->
-            <article class="article1">
+            <article class="col-lg col-md mb mb-md col-sm article1">
                 <!-- Description prestations -->
                 <div class="article1_blockImg">
                     <img class="antho" src="img/accueil.jpg"/>
@@ -75,7 +83,7 @@
 
 
             <!-- Seconde section de la page d'accueil -->
-            <article class="article2">
+            <article class="col-lg col-md mb mb-md col-sm article2">
 
                 <!-- Environnemental et dessin eco -->
                 <div>
@@ -95,7 +103,7 @@
             <article class="article3">
 
                 <!-- Liens réseaux sociaux -->
-                <div class="artcile3_reseauSociaux">
+                <div class="artcile3 reseauSociaux">
                     <p>Pour en voir plus sur nos prestations suivez-nous sur :</p>
 
                     <ul>
